@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className='navbar_container'>
 
                 <div className='navbar--left'>
-                    <img alt='logo'></img>
+                    Anurag
                 </div>
                 <div className='navbar--right'>
 
