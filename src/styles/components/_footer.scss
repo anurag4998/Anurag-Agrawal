@@ -16,7 +16,7 @@
 
             a 
             {
-                color: #fff;
+                color: $white;
                 font-size: 3rem;
                 width: 5rem;
                 height: 5rem;
@@ -27,20 +27,25 @@
             }
 
         }
-
+        .footer__heading
+        {
+            margin: 2rem 0;
+            font-size: 2rem;
+        }
         hr 
         {
             width: 60%;
             border: 0;
-            border-top: 2px solid hsla(0,0%,100%,.1);
+            border-top: 2px solid $lightgrey;
             margin:1rem 0;
         }
         .footer__text
         {
-            color:grey;
+            color:$grey;
             font-size: 1.3rem;
             margin-top: 1rem;
 
+           
         }
     }
 
