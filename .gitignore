@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/components/skills.js
+src/styles/components/_skills.scss
