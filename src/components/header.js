@@ -13,7 +13,7 @@ const Header = () => {
                         <h1 className = 'heading'> Hey there! I'm <span className ='name'> Anurag Agrawal </span> </h1>
                     </Fade>
                     <Zoom delay = {500}>
-                        <p className = 'subheading'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                        <p className = 'subheading'>A Front End Developer and  programmer from India</p>
                         <div className='links'>
                             <a className='links_1' target = "_blank" href='https://drive.google.com/file/d/1nwXZ_evEC8aUsquweDtBcN0uQpeQP4qx/view?usp=sharing'>Resume</a>
                         </div>

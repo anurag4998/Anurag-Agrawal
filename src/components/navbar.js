@@ -15,15 +15,13 @@ const Navbar = () => {
             <div className='navbar_container'>
 
                 <div className='navbar--left'>
-                    Anurag
+                   <a href = "/">Anurag</a> 
                 </div>
                 <div className='navbar--right'>
 
                     <ul className={toggle ? 'navbar--right__links' : 'navbar--right__links--display'}>
-                        <li><a> About Me</a> </li>
-                        <li><a> Projects</a></li>
-                        <li><a>CONTACT</a></li>
-
+                        <li><a href = "#About"> About Me</a> </li>
+                        <li><a href = "#Projects"> Projects</a></li>
                     </ul>
 
                     <a href='#ham' onClick={handleClick} className='hamburger'><img src={hamburger} alt='menu' id='ham'></img></a>
