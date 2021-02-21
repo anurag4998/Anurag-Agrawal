@@ -1,6 +1,7 @@
-import React, { useEffect , useState} from 'react';
+import React from 'react';
 import details from '../projectholder'
 import Fade from 'react-reveal/Fade';
+import { Link} from "react-router-dom";
 
 const Projects = () => {
 
@@ -23,7 +24,7 @@ const Projects = () => {
                             <div className = 'projectwrapper'>
                                 <div className = 'projectimagecontainer'>
                                     <img className = 'project__image' src = "/images/airline.png"></img>
-                                    <a style = {left} target = "_blank" className = 'popupbuttons live'>Read More</a>                                
+                                    <Link to = "/project/airline" style = {left} className = 'popupbuttons live'>Read More</Link>                                
                                 </div>
                         
                                 <div className = 'projectdetailscontainer'>
@@ -60,7 +61,7 @@ const Projects = () => {
                                     <div className = 'projectwrapper videowrapper'>
                                         <div className = 'projectimagecontainer videocontainer'>
                                             <iframe className = 'project__image' src="https://drive.google.com/file/d/1MN_vtPYZLgQ-UIIQw-jmdch5K9WVyAsG/preview" width="640" height="480"></iframe>
-                                            <a  target = "_blank" className = 'popupbuttons live'>Read More</a>
+                                            <Link to  = "/project/iot" className = 'popupbuttons live'>Read More</Link>
                                         </div>
                                  
                                         <div className = 'projectdetailscontainer'>
