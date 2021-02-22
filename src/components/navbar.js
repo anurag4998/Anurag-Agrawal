@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import hamburger from '../images/icon-hamburger.svg';
+import {Link} from 'react-scroll'
+
 const Navbar = () => {
     const [toggle, setToggle] = useState(1);
+ 
+
+       
     const handleClick = (event) => {
         event.preventDefault()
         if (!toggle)
@@ -20,11 +24,10 @@ const Navbar = () => {
                 <div className='navbar--right'>
 
                     <ul className={toggle ? 'navbar--right__links' : 'navbar--right__links--display'}>
-                        <li><a href = "#About"> About Me</a> </li>
-                        <li><a href = "#Projects"> Projects</a></li>
+                        <li><Link  to="About" spy={true} smooth={true}>  About Me </Link> </li>
+                        <li><Link  to="Projects" spy={true} smooth={true}> Projects </Link> </li>
                     </ul>
 
-                    <a href='#ham' onClick={handleClick} className='hamburger'><img src={hamburger} alt='menu' id='ham'></img></a>
 
                 </div>
             </div> 
