@@ -59,7 +59,7 @@
     {
         "path" : "/images/burger.png",
         "title" : "Burger.INC",
-        "description" : "A parallax scrolling landing page concept built using scss",
+        "description" : "A responsive parallax scrolling based web page using SCSS design pattern",
         "code":"https://github.com/anurag4998/Burger.inc",
         "demo":"https://burgerinc.netlify.app/",
         "pill" : "SCSS"
@@ -69,7 +69,7 @@
     {
         "path" : "/images/bookmark.png",
         "title" : "Bookmark",
-        "description" : "A landing page concept built using flexbox and scss design pattern",
+        "description" : "A landing page concept built using Flexbox and SCSS design pattern",
         "code":"https://github.com/anurag4998/Bookmark",
         "demo":"https://bookmarkland.netlify.app/",
         "pill" : "SCSS"
