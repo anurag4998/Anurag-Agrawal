@@ -47,6 +47,15 @@
 
     },
     {
+        "path" : "/images/tictactoe.png",
+        "title" : "TIc Tac Toe",
+        "description" : "A simple tic tac toe game created using react ",
+        "code":"https://github.com/anurag4998/tictactoe",
+        "demo":"https://game49.netlify.app/",
+        "pill" : "React"
+
+    },
+    {
         "path" : "/images/currency.png",
         "title" : "Currency Convertor",
         "description" : "A currency convertor app built using the free currency convertor API ",
