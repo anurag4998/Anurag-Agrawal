@@ -38,6 +38,15 @@
 
     },
     {
+        "path" : "/images/minesweeper.png",
+        "title" : "Minesweeper",
+        "description" : "The traditional minesweeper game built using react",
+        "code":"https://github.com/anurag4998/Minesweeper",
+        "demo":"https://anurag4998.github.io/Minesweeper/",
+        "pill" : "React"
+
+    },
+    {
         "path" : "/images/weatherexpress.png",
         "title" : "Weather App",
         "description" : "A simple weather app built using node and Express ",
@@ -48,7 +57,7 @@
     },
     {
         "path" : "/images/tictactoe.png",
-        "title" : "TIc Tac Toe",
+        "title" : "Tic Tac Toe", 
         "description" : "A simple tic tac toe game created using react ",
         "code":"https://github.com/anurag4998/tictactoe",
         "demo":"https://game49.netlify.app/",
