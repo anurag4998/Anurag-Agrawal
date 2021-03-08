@@ -9,14 +9,6 @@
         "pill" : "MERN"
     },
 
-    {
-    "path" : "/images/weather.png",
-    "title" : "Weather API",
-    "description" : "A landing page concept for API provider, integrated with third party API to show demo",
-    "code":"https://github.com/anurag4998/Weatherapp",
-    "demo":"https://weatherapi19.netlify.app/",
-    "pill" : "React"
-    },
 
     {
         "path" : "/images/covid.png",
@@ -35,6 +27,24 @@
         "code":"https://github.com/anurag4998/Task_manager--frontend",
         "demo":"https://task-manager04.netlify.app/",
         "pill" : "MERN"
+
+    },
+
+    {
+        "path" : "/images/weather.png",
+        "title" : "Weather API",
+        "description" : "A landing page concept for API provider, integrated with third party API to show demo",
+        "code":"https://github.com/anurag4998/Weatherapp",
+        "demo":"https://weatherapi19.netlify.app/",
+        "pill" : "React"
+    },
+    {
+        "path" : "/images/currency.png",
+        "title" : "Currency Convertor",
+        "description" : "A currency convertor app built using the free currency convertor API ",
+        "code":"https://github.com/anurag4998/Curreny-Convertor",
+        "demo":"https://currencyswap.netlify.app/",
+        "pill" : "React"
 
     },
     {
@@ -61,15 +71,6 @@
         "description" : "A simple tic tac toe game created using react ",
         "code":"https://github.com/anurag4998/tictactoe",
         "demo":"https://game49.netlify.app/",
-        "pill" : "React"
-
-    },
-    {
-        "path" : "/images/currency.png",
-        "title" : "Currency Convertor",
-        "description" : "A currency convertor app built using the free currency convertor API ",
-        "code":"https://github.com/anurag4998/Curreny-Convertor",
-        "demo":"https://currencyswap.netlify.app/",
         "pill" : "React"
 
     },
