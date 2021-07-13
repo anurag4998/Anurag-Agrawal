@@ -52,7 +52,7 @@
         "title" : "Minesweeper",
         "description" : "The traditional minesweeper game built using react",
         "code":"https://github.com/anurag4998/Minesweeper",
-        "demo":"https://anurag4998.github.io/Minesweeper/",
+        "demo":"https://minesweeper49.netlify.app/home",
         "pill" : "React"
 
     },
