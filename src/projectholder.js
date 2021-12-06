@@ -1,6 +1,14 @@
 
  const project = [
     {
+        "path" : "/images/note.png",
+        "title" : "Notes App",
+        "description" : "A humble attempt to create a Google Keep clone",
+        "code":"https://github.com/anurag4998/notesapp",
+        "demo":"https://notesapp49.netlify.app/",
+        "pill" : "MERN"
+    },
+    {
         "path" : "/images/certsfolio1.png",
         "title" : "Certsfolio",
         "description" : "A one place stop to aggregate all your certificates (alpha)",
