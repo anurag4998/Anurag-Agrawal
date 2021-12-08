@@ -19,22 +19,7 @@ const Projects = () => {
 
             <div className = 'list'>
                 <div className = 'row'>
-                    <div className = 'col-12 col-md-6 col-xl-4 '>
-                        <Fade bottom>
-                            <div className = 'projectwrapper'>
-                                <div className = 'projectimagecontainer'>
-                                    <img className = 'project__image' src = "/images/airline.png"></img>
-                                    <Link to = "/project/airline" style = {left} className = 'popupbuttons live'>Read More</Link>                                
-                                </div>
-                        
-                                <div className = 'projectdetailscontainer'>
-                                    <h2 className = 'project__title'>ASAY Airlines</h2> 
-                                    <span className = 'stack'>Angular</span>
-                                    <h2 className = 'project__description'>Airline Reservation system built using ASP.NET MVC, frontend in angular</h2>
-                                </div>
-                            </div>  
-                        </Fade> 
-                    </div>
+                     
 
                     {details.map(project => {
                             return(
@@ -79,3 +64,19 @@ const Projects = () => {
 
 export default Projects
 
+// <div className = 'col-12 col-md-6 col-xl-4 '>
+//                         <Fade bottom>
+//                             <div className = 'projectwrapper'>
+//                                 <div className = 'projectimagecontainer'>
+//                                     <img className = 'project__image' src = "/images/airline.png"></img>
+//                                     <Link to = "/project/airline" style = {left} className = 'popupbuttons live'>Read More</Link>                                
+//                                 </div>
+                        
+//                                 <div className = 'projectdetailscontainer'>
+//                                     <h2 className = 'project__title'>ASAY Airlines</h2> 
+//                                     <span className = 'stack'>Angular</span>
+//                                     <h2 className = 'project__description'>Airline Reservation system built using ASP.NET MVC, frontend in angular</h2>
+//                                 </div>
+//                             </div>  
+//                         </Fade> 
+//                     </div>
