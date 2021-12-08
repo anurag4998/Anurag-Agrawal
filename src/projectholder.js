@@ -3,7 +3,7 @@
     {
         "path" : "/images/airline.png",
         "title" : "ASAY Airlines",
-        "description" : "An airline reservation system built using ASP.NET & ANGULAR",
+        "description" : "An airline reservation system built using ASP.NET & Angular",
         "code":"https://github.com/anurag4998/notesapp",
         "demo":"http://angula48998r.s3-website.ap-south-1.amazonaws.com/",
         "pill" : ".NET/Angular"
