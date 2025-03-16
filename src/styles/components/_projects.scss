@@ -71,7 +71,7 @@
     -webkit-transition: all 0.5s;
 }
 .projectimagecontainer:before {
-    content: attr(data-content);
+    content: "";
     width:100%;
     color:$white;
     z-index:2;
