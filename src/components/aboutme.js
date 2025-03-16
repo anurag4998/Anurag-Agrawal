@@ -15,7 +15,7 @@ const Faq = () => {
                         <p>Hi, I am Anurag Agrawal, a full stack developer currently working with Dassault Systemes.
                            I'm a self motivated learner and I love challenges.
                            Seeing my ideas come to life excites me the most about development
-                           in general and I am really keen on learning and discovering more.</p>
+                           and I am really keen on learning and discovering more.</p>
 
                         <p>
                         I am presently living in Bengaluru, India. I have graduated in engineering with specialization in the domain of electronics and telecommunication.
