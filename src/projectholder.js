@@ -1,6 +1,14 @@
 
  const project = [
     {
+        "path" : "/images/transaction_analyzer.png",
+        "title" : "Transaction Analyzer",
+        "description" : "An app to track your GPay transactions built using React",
+        "code":"https://github.com/anurag4998/transactionAnalyzer",
+        "demo":"",
+        "pill" : "React"
+    },
+    {
         "path" : "/images/airline.png",
         "title" : "ASAY Airlines",
         "description" : "An airline reservation system built using ASP.NET & Angular",
