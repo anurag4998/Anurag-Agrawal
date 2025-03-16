@@ -1,7 +1,7 @@
 import React from 'react';
 import hero from '../../src/images/hero.jpg'
-import Fade from 'react-reveal/Fade';
-import Zoom from 'react-reveal/Zoom';
+import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Header = () => {
     return (
@@ -13,15 +13,17 @@ const Header = () => {
                         <h1 className = 'heading'> Hey there! I'm <span className ='name'> Anurag Agrawal </span> </h1>
                     </Fade>
                     <Zoom delay = {500}>
-                        <p className = 'subheading'>A Front End Developer and  programmer from India</p>
+                        <p className = 'subheading'>A Full Stack Developer and programmer from India</p>
                         <div className='links'>
-                            <a className='links_1' target = "_blank" href='https://drive.google.com/file/d/1nwXZ_evEC8aUsquweDtBcN0uQpeQP4qx/view?usp=sharing'>Resume</a>
+                            <a className='links_1' target = "_blank" href='https://drive.google.com/file/d/1fxNhloHoebF60rSUzSjcQ_3cXnUpq0CG/view?usp=drive_link'>Resume</a>
                         </div>
                     </Zoom>
                 </div>
-                <Fade right>
-                    <div className='header__container--image'>
-                        <img src = {hero}></img>
+                <Fade direction="right">
+                    <div style={{ width: "fit-content", display: "flex", justifyContent: "right" }}>
+                        <div className="header__container--image">
+                            <img src={hero} alt="Hero" />
+                        </div>
                     </div>
                 </Fade>
                

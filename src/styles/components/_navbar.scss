@@ -1,3 +1,5 @@
+@use '../utils/variables' as *; // Import all variables
+@use '../utils/mixins' as *; // Import all mixins
 .navbar
 {
     max-width: 80%;

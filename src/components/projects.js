@@ -1,7 +1,7 @@
 import React from 'react';
 import details from '../projectholder'
-import Fade from 'react-reveal/Fade';
-import { Link} from "react-router-dom";
+import {Fade} from 'react-awesome-reveal';
+import {Link} from "react-router-dom";
 
 const Projects = () => {
 
@@ -24,7 +24,7 @@ const Projects = () => {
                     {details.map(project => {
                             return(
                                 <div key={project.title}className = 'col-12 col-md-6 col-xl-4 '>
-                                    <Fade bottom>
+                                    <div>
                                             <div className = 'projectwrapper'>
                                                 <div className = 'projectimagecontainer'>
                                                     <img className = 'project__image' src = {project.path} ></img>
@@ -38,7 +38,7 @@ const Projects = () => {
                                                     <h2 className = 'project__description'>{project.description ? project.description : undefined}</h2>
                                                 </div>
                                             </div>  
-                                    </Fade>                             
+                                    </div>                             
                                 </div>
                      )})}
                     <div className = 'col-12 col-md-6 col-xl-4 '>
@@ -63,20 +63,3 @@ const Projects = () => {
 }
 
 export default Projects
-
-// <div className = 'col-12 col-md-6 col-xl-4 '>
-//                         <Fade bottom>
-//                             <div className = 'projectwrapper'>
-//                                 <div className = 'projectimagecontainer'>
-//                                     <img className = 'project__image' src = "/images/airline.png"></img>
-//                                     <Link to = "/project/airline" style = {left} className = 'popupbuttons live'>Read More</Link>                                
-//                                 </div>
-                        
-//                                 <div className = 'projectdetailscontainer'>
-//                                     <h2 className = 'project__title'>ASAY Airlines</h2> 
-//                                     <span className = 'stack'>Angular</span>
-//                                     <h2 className = 'project__description'>Airline Reservation system built using ASP.NET MVC, frontend in angular</h2>
-//                                 </div>
-//                             </div>  
-//                         </Fade> 
-//                     </div>
