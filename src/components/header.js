@@ -19,12 +19,8 @@ const Header = () => {
                         </div>
                     </Zoom>
                 </div>
-                <Fade direction="right">
-                    <div style={{ width: "fit-content", display: "flex", justifyContent: "right" }}>
-                        <div className="header__container--image">
-                            <img src={hero} alt="Hero" />
-                        </div>
-                    </div>
+                <Fade direction="right" className = "header__container--image" >
+                        <img src={hero} alt="Hero" />
                 </Fade>
                
             </div>
